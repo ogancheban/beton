@@ -4,7 +4,7 @@
 
 
 
-$('.owl-carousel').owlCarousel({
+$('.hero-slider').owlCarousel({
     loop: true,
     margin: 10,
     nav: true,
