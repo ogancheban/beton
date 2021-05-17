@@ -303,19 +303,22 @@ section {
     background-color: var(--greybase);
 }
 .pag-slider {
-    max-width: 80%;
-    display: block;
     margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /* начало ПАГИ*/
 .card {
     position: relative;
-    width: 300px;
+    margin: 0 auto;
+    width: 240px;
     height: 400px;
     background-color: var(--darkgrey);
     border-radius: 20px;
     border: 1px solid var(--yellowbase);
-    overflow: auto;
+    overflow: hidden;
 }
 .card::before {
     content: "MOREV";
@@ -488,5 +491,8 @@ section {
     .headertop__search {
         flex: 0 1 33%;
         text-align: center;
+    }
+    .pags__title p {
+        max-width: 70%;
     }
 }

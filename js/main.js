@@ -16,25 +16,31 @@ $('.hero-slider').owlCarousel({
 
 })
 $('.pag-slider').owlCarousel({
+
+    center: true,
     loop: true,
-    margin: 10,
+    margin: 5,
+    responsiveClass: true,
+
     nav: true,
+
+
     responsive: {
         0: {
             items: 1
         },
         570: {
-            items: 1
+            items: 2
         },
 
         991: {
-            items: 1
+            items: 2
         },
         1000: {
             items: 3
         },
         1180: {
-            items: 2
+            items: 3
         }
 
 
